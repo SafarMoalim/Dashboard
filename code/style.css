@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* start header  */
+header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    flex: 1;
+    margin-left: 64px;
+    color: blue;
+    font-family: 'Merriweather', serif;
+}
+.logo span{
+    color: rgb(255, 0, 0);
+}
+.topicons{
+    display: flex;
+    align-items: center;
+}
+.socialicons{
+    margin-right: 15px;
+}
+.socialicons a{
+     color: chocolate;
+     font-size: 20px;
+}
+.s-profile{
+    background-color: #ffc401;
+    margin-right: 64px;
+    padding: 5px 10px;
+    border-radius: 100%;
+    border: 3px solid #5a3800;
+
+}
+/* header end  */
+
+/* start asidecont  */
+.asidecont{
+    display: flex;
+}
+aside{
+    flex: 0.14;
+    background-color: #ffc401;
+}
+.l-profile{
+    margin: 35px 0px;
+    display: flex;
+    justify-content: center;
+}
+.l-profile img{
+    width: 100px;
+     height: 100px;
+    border-radius: 100px;
+    border: 3px solid #5a3800;  
+}
+.l-profile img{
+   
+}
+.icons a{
+    display: block;
+    padding: 10px;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: #5a3800;
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+
+.icons a i{
+    margin-right: 10px;
+    vertical-align: middle;
+    
+}
+.icons a:hover{
+    background-color: whitesmoke;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+.active{
+    background-color: whitesmoke;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    padding-left: 15px;
+    margin: 5px 0px;
+}
+.social-icons{
+    margin-left: 15px;
+    padding: 10px;
+}
+.downicons{
+    margin-top: 10px;
+}
+.social-icons img{
+    width: 60px;
+    height: 60px;
+      margin-bottom: -15px;
+}
+.downicons a{
+   color: #5a3800;
+   padding: 5px;
+   font-size: 25px;
+   margin: 0px -5px;
+}
+.container{
+    background-color: whitesmoke;
+    flex: 0.86;
+}
